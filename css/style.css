@@ -27,6 +27,7 @@ header {
 
 input[type=text] {
     font-family: "Rubik Mono One", serif;
+    font-size: 16px;
     border: 2px solid #ff4742;
     border-radius: 6px;
     background-color: rgb(0, 0, 0);
