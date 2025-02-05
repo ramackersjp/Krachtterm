@@ -8,6 +8,9 @@
     <link rel="manifest" href="js/manifest.json" />
 </head>
 <body>
+    <audio id="myAudio">
+        <source src="assets/damned.mp3" type="audio/mpeg">
+      </audio>
     <header>
         <img id="logo" src="assets/logo.png">
     </header>
@@ -15,7 +18,7 @@
     <section id="inputfield">
         <form id="placeWordForm"> 
             <label><input placeholder="Hier schelden..." type="text" name="placeWord" maxlength="20"></label>
-            <button id="blaf" type="submit">BLAF</button>
+            <button onclick="playAudio()" id="blaf" type="submit">BLAF</button>
         </form>
     </section>
 
