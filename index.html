@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krachtterm - Anger Management</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="js/manifest.json" />
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png">
+    </header>
+
+    <section id="inputfield">
+        <form id="placeWordForm"> 
+            <label><input placeholder="Type een scheldwoord..." type="text" name="placeWord"></label>
+            <button id="blaf" type="submit">BLAF</button>
+        </form>
+    </section>
+
+    <div class="wordcloud"></div>  
+
+    <footer>
+        <p>© J.P. Ramackers <script>document.write(new Date().getFullYear());</script> | <a href="#repo" target="_blank"><img id="ftimg" src="assets/github.png"></a></p>
+    </footer>
+
+    <script type="module" src="js/fetch.js"></script>
+    <script type="module" src="js/send.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "name": "krachtterm", 
+    "short_name": "KTM", 
+    "start_url": "https://krachtterm.vercel.app/",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "icons":[
+      {
+        "src":"/assets/pwa-logo-1.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src":"/assets/pwa-logo-2.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  
+  }

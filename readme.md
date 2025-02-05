@@ -1,0 +1,1 @@
+A very simple web App to control your anger management. You can spit swear words as much as you want.
