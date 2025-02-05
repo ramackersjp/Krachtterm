@@ -97,6 +97,9 @@ background-color: #ff4742;
       background-color: #036776;
   }
 footer {
+    font-family: "Rubik Mono One", serif;
+    font-size: 10px;
+    font-style: normal;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -110,7 +113,7 @@ footer {
 }
 #ftimg {
     height: 25px;
-    margin-top: -20px;
+    margin-top: -6px;
 }
 #ftimg:hover {
     opacity: .7;
